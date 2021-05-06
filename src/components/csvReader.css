@@ -1,0 +1,56 @@
+th {
+  background: rgb(75, 140, 194);
+  position: sticky;
+  padding: 2px;
+  top: 0;
+  border: 2px solid black;
+}
+
+td {
+  padding: 2px;
+  border: 2px solid black;
+}
+
+table {
+  padding: 2px;
+  background: white;
+  border-radius: 5px;
+  border-collapse: collapse;
+}
+
+tbody > tr:nth-child(2n) {
+  background: rgba(223, 223, 223, 0.8);
+}
+
+.container{
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  left: 50%;
+  top: 1em;
+  transform: translateX(-50%);
+  max-width: 1400px;
+}
+
+.input__style{
+  display: inline-block;
+  background: whitesmoke;
+  padding: 10px 40px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+tbody > tr:hover {
+  background: rgba(45, 172, 204, 0.9);
+}
+
+.warning__span {
+  padding: 10px 40px;
+  border: 1px solid tomato;
+  background: grey;
+  border-radius: 10px;
+}
+
+.incorectTd {
+  background: rgba(252, 108, 82, 0.65);
+}

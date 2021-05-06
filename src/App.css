@@ -1,0 +1,10 @@
+.App{
+  width: 100%;
+  height: calc(100vh - 20px);
+}
+
+
+body{
+  background-color: #282c34;
+  padding-bottom: 20px;
+}
